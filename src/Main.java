@@ -13,5 +13,21 @@ public class Main {
         System.out.println("Ano de Lançamento: " + anoDeLancamento);
         System.out.println("Nota do Filme " + notaDoFilme);
 
+
+        /*Calcular média*/
+        double media = (9.5 + 8.5 + 7.5)/3;
+        System.out.println( "Média: " + media);
+
+        String sinopse;
+        sinopse = """
+                    John Wick é um 
+                    lendário assassino de aluguel aposentado, lidando com o luto após perder o 
+                    grande amor de sua vida. Quando um gângster invade sua casa, 
+                    mata seu cachorro e rouba seu carro, ele é forçado 
+                    a voltar à ativa e inicia sua vingança.
+                """;
+        System.out.println("Sinopse do Fileme: " + sinopse);
+
+
     }
 }
