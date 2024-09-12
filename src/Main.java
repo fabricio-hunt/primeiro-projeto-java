@@ -18,8 +18,6 @@ public class Main {
                     a voltar à ativa e inicia sua vingança.
                     
                 """;
-        System.out.println("Sinopse do Fileme: " + sinopse);
-
         //casting
         int classificacao = (int) (media/2);
 
